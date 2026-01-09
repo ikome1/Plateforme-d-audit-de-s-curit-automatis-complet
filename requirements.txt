@@ -1,0 +1,19 @@
+# Plateforme d'Audit de Sécurité Automatisé (Network & Web)
+# Dépendances Python requises
+
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Installation:
+# pip install -r requirements.txt
+
+# Prérequis système:
+# - Nmap doit être installé sur le système
+#   macOS: brew install nmap
+#   Linux: apt-get install nmap (Debian/Ubuntu) ou yum install nmap (RedHat/CentOS)
+#   Windows: Télécharger depuis https://nmap.org/download.html
+
+# Note: Les autres modules utilisés (subprocess, xml.etree, argparse, json, re, socket, os, datetime, pathlib, urllib3, collections)
+# font partie de la bibliothèque standard de Python 3.6+
+
